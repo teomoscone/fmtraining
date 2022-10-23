@@ -50,7 +50,6 @@ nav ul li{
     background-image: url(../multimedia/FOTO1\ -\ Editado.png);
     background-size: cover;
     background-position: center;
-
 }
 
 a{
@@ -223,7 +222,7 @@ footer{
 .iconoinsta{
     width: 30px;
     height: 30px;
-    background-color: rgb(64, 160, 34);
+    background-color: rgb(148, 255, 116);
     
 }
 
@@ -654,7 +653,11 @@ div.horarios{
 
 /* MOBILE INDEX */
 
-    .nav{
+.contenedor1{
+    background-color: rgb(148, 255, 116);
+}
+
+.nav{
     display: grid;
     grid-template-rows: 1fr;
     grid-template-areas: 
@@ -700,6 +703,7 @@ nav ul li{
 
 .sectionindex{
     padding: 0px;
+    
 }
 
 .fuerzaymente{
@@ -757,6 +761,10 @@ nav ul li{
     padding: 0%;
 }
 
+.footer1{
+    margin-top: 20px;
+}
+
 /* MOBILE NOSOTROS */
 
 .divnosotros{
@@ -792,4 +800,50 @@ nav ul li{
 
 .divfooter{
     padding: 0%;
+}
+}
+
+@media screen and (max-width: 320px){
+
+    .navegador{
+    background-color: white;
+    }
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logotipo{
+    height: 40px;
+    width: 60px;
+    background-color: transparent;
+    }
+
+.fmtraining{
+    margin: 0%;
+}
+
+.fuerzaymente{
+    font-size: 25px;
+}
+
+.titulo2inicio{
+    font-size: 15px;
+}
+
+.contenido{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parrafonosotros{
+    font-size: 6px;
+
+}
 }
