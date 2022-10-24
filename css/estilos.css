@@ -45,6 +45,8 @@ nav ul li{
     margin: 6px;
 }
 
+
+
 .fotofondo {
 
     background-image: url(../multimedia/FOTO1\ -\ Editado.png);
@@ -89,6 +91,7 @@ h1{
     justify-content: center;  */
     margin-top: 200px;
 } 
+
 
 .tamañoparrafo{
 
@@ -266,6 +269,9 @@ color: white;
     border: 2px solid white;
 }
 
+.fotosnosotros img:hover{
+    transform: scale(1.5);
+}
 
 .sectionparrafo{
     display: flex;
