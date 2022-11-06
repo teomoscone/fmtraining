@@ -1,13 +1,13 @@
-
+/* 
 *{
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 
-
+/* 
 .fondodeheader{
 
     background-color: rgb(255, 255, 255);
@@ -21,10 +21,10 @@
     width: 160px;
     height: 150px;
     margin-left: 60px;
-}
+} */
 
 
-nav ul{
+/* nav ul{
 
     color: rgb(0, 0, 0);
     list-style-type: none;
@@ -43,43 +43,43 @@ nav ul li{
     font-family: 'Manrope', sans-serif;
     padding: 6px;
     margin: 6px;
-}
+} */
 
 
 
-.fotofondo {
+/* .fotofondo {
 
     background-image: url(../multimedia/FOTO1\ -\ Editado.png);
     background-size: cover;
     background-position: center;
-}
+} */
 
-a{
+/* a{
 
     text-decoration: none;
     color: black;
     
-}
+} */
 
 
-
+/* 
 h1{
 
     color:rgb(255, 255, 255);
     font-family: 'Fugaz One', cursive;
-}
+} */
 
-.fmtraining{
+/* .fmtraining{
     color: rgb(0, 0, 0);
     font-size: 40px;
     text-align: right;
     letter-spacing: 35px;
     text-decoration: underline 4px green;
     font-family: 'Fugaz One', cursive;
-}
+} */
 
 
-.fuerzaymente{
+/* .fuerzaymente{
 
     color:rgb(76, 165, 41);
     letter-spacing: 4px;
@@ -89,11 +89,11 @@ h1{
     /* display: flex;
     flex-direction: row;
     justify-content: center;  */
-    margin-top: 200px;
-} 
+    /* margin-top: 200px;
+}  */ 
 
 
-.tamañoparrafo{
+/* .tamañoparrafo{
 
     width: 200px;
     height: 400px;
@@ -118,9 +118,9 @@ h1{
 
     width: 560px;
 
-}
+} */
 
-.cajas{
+/* .cajas{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -158,8 +158,10 @@ h1{
     height: 80px;
 
 
-}
-div.horarios {
+} */
+
+/* SERVICIOS */
+/* div.horarios {
     width: 100%;
     text-align: center;
 
@@ -168,11 +170,11 @@ div.horarios {
     width:  650px;
     height: 450px;
 
-}
+} */
 
 /* CONTACTO HTML */
 
-.fondocontacto{
+/* .fondocontacto{
     background-image: url(../multimedia/fondocontacto.png);
     background-size: cover;
     background-position: center;
@@ -199,9 +201,9 @@ div.horarios {
 
 
 
-}
+} */
 
-form{
+/* form{
 
     background-color: rgb(187, 187, 187);
     color:rgb(75, 75, 75);
@@ -209,7 +211,7 @@ form{
     bottom: 0px;
 } 
 
-footer{
+.footer1{
     background-color: black;
     
 }
@@ -245,19 +247,19 @@ color: white;
 
 .divfooter{
     padding: 0%;
-}
+} */
 
 /* NOSOTROS HTML */
 
 
-.titulonosotros{
+/* .titulonosotros{
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 50px;
     background-color: rgb(0, 0, 0);
-}
+} */
 
-.fotosnosotros{
+/* .fotosnosotros{
     width: 530px;
     height: 1110px;
     margin-left: 0px;
@@ -271,18 +273,18 @@ color: white;
 
 .fotosnosotros img:hover{
     transform: scale(1.5);
-}
+} */
 
-.sectionparrafo{
+/* .sectionparrafo{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: rgb(141, 255, 141);
-}
+} */
 
 
-.parrafonosotros{
+/* .parrafonosotros{
 
     color:rgb(0, 0, 0);
     font-size: 20px;
@@ -291,10 +293,10 @@ color: white;
     font-weight: bold;
     text-align: left;
 
-}
+} */
 
 
-.fotofondo2{
+/* .fotofondo2{
 
     background-image: url(../multimedia/fondonosotros.png);
     background-size: cover;
@@ -303,12 +305,12 @@ color: white;
     
 
 
-}
+} */
 
 
 /* SERVICIOS HTML */
 
-.fondoservicios{
+/* .fondoservicios{
     background-image: url(../multimedia/fondoservicios.png);
     background-size: cover;
     background-position: center;
@@ -329,42 +331,42 @@ div.horarios{
     float: top;
     background-color: rgb(0, 0, 0);
 
-}
+} */
 
 
-.fondonosotros{
+/* .fondonosotros{
 
     background-image: url(../multimedia/FOTO\ FONDO\ ESPACIO.png);
     background-size: cover;
     background-position: center;
     height: 200vh;
-}
+} */
 
 
 /* ESPACIO HTML */
 
-.tituloespacio{
+/* .tituloespacio{
     color: rgb(255, 255, 255);
     font-size: 50px;
     text-align: center;
     float: top;
     background-color: rgb(0, 0, 0);
 
-}
+} */
 
 /* EQUIPO HTML */
 
-.fondoequipo{
+/* .fondoequipo{
     background-image: url(../multimedia/fondoquipo.png);
     background-size: cover;
     background-position: center;
     height: 200vh;
     position: relative;
-}
+} */
 
 /* UBICACIÓN HTML */
 
-.fondoubicacion{
+/* .fondoubicacion{
     background-image: url(../multimedia/fondoubicacion.png);
     background-size: cover;
     background-position: center;
@@ -380,7 +382,7 @@ div.horarios{
     width: 500px;
     height: 400px;
     
-}
+} */
 
 
 /* GRID INDEX */
@@ -407,12 +409,12 @@ div.horarios{
 .footer1{
     grid-area: footer;
 } */
-.nav{
+/* .nav{
     display: flex;  
     flex-direction: row;
     justify-content: space-between;
 
-}
+} */
 
 
 /* .navegador{
@@ -435,10 +437,10 @@ div.horarios{
     grid-area: menu1;
 } */
 
-.contenido{
+/* .contenido{
 
     /* grid-area: menu1;*/
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
@@ -448,43 +450,43 @@ div.horarios{
     grid-template-areas:
     /* "menu1" */
     /* "fmtraining" */
-}
+
 
 /* .menu1{
     grid-area: menu1;
 
 } */
 
-.fmtraining{
+/* .fmtraining{
     /* grid-area: fmtraining;  */
-    margin-right: 10px;
-}
+    /* margin-right: 10px;
+} */ 
 
 /* GRID NOSOTROS */
 
 
-.cajafotos{
+/* .cajafotos{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
-}
+} */
 
-.cajanosotros{
+/* .cajanosotros{
     padding: 0px;
     width: 400px;
-}
-.titulonosotros{
+} */
+/* .titulonosotros{
     margin: 0px;
-}
+} */
 
-.sectionnosotros1{
+/* .sectionnosotros1{
     background-color: gray;
-}
+} */
 /* TAMAÑO TABLET 768px*/
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){ */
 /* 
     .contenedor1{
         display: grid;
@@ -495,25 +497,25 @@ div.horarios{
         "footer";
     } */
 
-.contenido{
+/* .contenido{
     display: flex;
     flex-direction: column;
     align-items: center;
 
-}
+} */
 
-    .fondodeheader{
+    /* .fondodeheader{
         background-color: rgb(174, 255, 156)
-    }
+    } */
 /* 
     .fotofondo{
         grid-area: main;
     } */
 
-    .footer1{
+    /* .footer1{
         background-color: rgb(0, 0, 0)
     
-    } 
+    }  */
 
 /* .navegador{
     display: grid;
@@ -524,19 +526,19 @@ div.horarios{
     "menu1"
 } */
 
-.logotipo{
+/* .logotipo{ */
     /* grid-area: logo;  */
     /* display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center; */
-    width: 160px;
+    /* width: 160px;
     height: 150px;
     margin-left: auto;
-    margin-right: auto;
-}
+    margin-right: auto; */
+/* } */
 
-.contenido{
+/* .contenido{ */
     /* grid-area: menu1; 
     display: grid;
     grid-template-columns: 1fr;
@@ -544,16 +546,16 @@ div.horarios{
     grid-template-areas:
     "fmtraining"
     "menu1" */
-    margin: auto;
-}
+    /* margin: auto;
+} */
 
-.menu1{
+/* .menu1{ */
     /* grid-area: menu1; */
-    justify-content: space-around;
+    /* justify-content: space-around;
     align-items: center; 
     font-size: 15px;
-}
-.fmtraining{
+} */
+/* .fmtraining{
     grid-area: fmtraining;
     display: flex;
     flex-direction: row;
@@ -565,15 +567,15 @@ div.horarios{
     margin-right: auto;
     letter-spacing: 15px;
     
-}
+} */
 
-.titulocontacto{
+/* .titulocontacto{
     font-size: 25px;
     letter-spacing: 15px;
     
-}
+} */
 
-.fuerzaymente{
+/* .fuerzaymente{
     font-size: 60px ;
 }
 
@@ -590,38 +592,38 @@ div.horarios{
 .derechos{
     font-size: 10px;
 
-}
+} */
 
 /* TABLET NOSOTROS */
-
+/* 
 .menu1{
     padding: 0px;
-}
-.sectionnosotros{
+} */
+/* .sectionnosotros{
     grid-template-columns: 1fr;
-}
-.cajafotos{
+} */
+/* .cajafotos{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0px;
     padding-top: 20px;
-}
+} */
 
-
+/* 
 .titulonosotros{
     font-size: 25px;
     letter-spacing: 15px;
     
-}
+} */
 
 
-.fotofondo2{
+/* .fotofondo2{
     grid-template-columns: 1fr;
-}
+} */
 
-.parrafonosotros{
+/* .parrafonosotros{
     font-size: 15px;
     font-weight: bold;
     height: 285px;
@@ -633,24 +635,24 @@ div.horarios{
     border-top: 1px solid white;
     text-align: center;
 
-}
+} */
 
-.cajanosotros{
+/* .cajanosotros{
     width: 100%;
     padding: 0px;
     background-color: black;
-}
+} */
 
-.sectionnosotros{
+/* .sectionnosotros{
     padding: 0px;
-}
-.footernosotros{
+} */
+/* .footernosotros{
     border-top: 1px solid white;
 }
 .divfooter{
     padding: 0%;
-}
-}
+} */
+
 
 
 /* TAMAÑO MOBILE 425px*/
@@ -659,11 +661,11 @@ div.horarios{
 
 /* MOBILE INDEX */
 
-.contenedor1{
+/* .contenedor1{
     background-color: rgb(148, 255, 116);
-}
+} */
 
-.nav{
+/* .nav{
     display: grid;
     grid-template-rows: 1fr;
     grid-template-areas: 
@@ -672,24 +674,24 @@ div.horarios{
 
 .logotipo{
     grid-area: logotipo;
-    }
+    } */
 
-.contenido{
+/* .contenido{
     grid-area: contenido;
-}
+} */
 
-.fondodeheader{
+/* .fondodeheader{
     background-color: rgb(141, 141, 141);
-}
-
+} */
+/* 
 .logotipo{
     margin: 0px;
     height: 80px;
     width: 100px;
     background-color: rgb(0, 0, 0);
-}
+} */
 
-.menu1{
+/* .menu1{
     font-size: 10px;
     margin: 0px;
     font-weight: bold;
@@ -698,21 +700,21 @@ div.horarios{
 nav ul li{
     margin: 0px;
     padding: 2px;
-}
+} */
 
-.titulocontacto{
+/* .titulocontacto{
     font-size: 15px;
     word-spacing: 5px;
     letter-spacing: 5px;
     padding: 0px;
-}
+} */
 
-.sectionindex{
+/* .sectionindex{
     padding: 0px;
     
-}
+} */
 
-.fuerzaymente{
+/* .fuerzaymente{
     font-size: 30px;
     color: rgb(0, 0, 0);
     margin-top: 50px;
@@ -736,62 +738,62 @@ nav ul li{
 .caja2{
     background-color: transparent;
     margin-bottom: 80px;
-}
-
+} */
+/* 
 .frase{
     display: none;
-}
+} */
 
-.tamañoparrafo{
+/* .tamañoparrafo{
     margin-bottom: 20px;
     height: 100px;
-}
+} */
 
-.iconocronograma{
+/* .iconocronograma{
     height: 50px;
     width: 50px;
-}
+} */
 
-.frase{
+/* .frase{
     font-size: 10px;
-}
+} */
 
-.derechos{
+/* .derechos{
     font-size: 8px;
-}
-.caja4{
+} */
+/* .caja4{
     font-size: 10px;
-}
+} */
 
-.divfooter{
+/* .divfooter{
     padding: 0%;
-}
+} */
 
-.footer1{
+/* .footer1{
     margin-top: 20px;
-}
+} */
 
 /* MOBILE NOSOTROS */
 
-.divnosotros{
+/* .divnosotros{
     padding: 0px;
 }
 
 .titulonosotros{
     font-size: 15px;
-}
+} */
 
-.fotofondo2{
+/* .fotofondo2{
     height: 114vh;
-}
+} */
 
-.fotosnosotros{
+/* .fotosnosotros{
     width: 250px;
     height: 500px;
     border: none;
-}
+} */
 
-.cajanosotros{
+/* .cajanosotros{
     height: 120px;
 }
 
@@ -802,11 +804,14 @@ nav ul li{
     height: 120px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
+} */
 
-.divfooter{
+/* .divfooter{
     padding: 0%;
-}
+} */
+
+
+
 }
 
 @media screen and (max-width: 320px){
