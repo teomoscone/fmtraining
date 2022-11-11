@@ -9,7 +9,7 @@
     margin: 0px; }
 
 .fotofondo2 {
-  background-image: url(../multimedia/fondonosotros.png);
+  background-image: url(../multimedia/fondonosotrosa.png);
   background-size: cover;
   background-position: center;
   height: 250vh; }
@@ -41,7 +41,8 @@
         line-height: 50px;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
-        text-align: center; }
+        text-align: center;
+        text-decoration: underline; }
 
 .footernosotros {
   background-color: black; }
@@ -85,17 +86,43 @@
       width: 650px;
       height: 450px; }
 
+.sectionindex .tituloespacio {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  float: top;
+  background-color: black;
+  margin-bottom: 0px; }
+
 .fondonosotros {
   background-image: url(../multimedia/FOTOFONDOESPACIO.png);
   background-size: cover;
   background-position: center;
-  height: 200vh; }
-  .fondonosotros .tituloespacio {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    float: top;
-    background-color: black; }
+  height: 250vh; }
+  .fondonosotros .sectionespacio .fotosnosotros1 {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .fondonosotros .sectionespacio .fotosnosotros1 .column1 {
+      margin-left: 50px;
+      margin-right: 50px; }
+      .fondonosotros .sectionespacio .fotosnosotros1 .column1 img {
+        width: 100%;
+        padding: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 340px;
+        border: 2px solid black; }
+        .fondonosotros .sectionespacio .fotosnosotros1 .column1 img:hover {
+          transform: scale(1.5); }
+
+.sectionindex .titulocontacto {
+  margin: 0px; }
 
 .fondoequipo {
   background-image: url(../multimedia/fondoquipo.png);
@@ -103,6 +130,60 @@
   background-position: center;
   height: 200vh;
   position: relative; }
+  .fondoequipo .sectionequipo .fotosequipo {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .fondoequipo .sectionequipo .fotosequipo .textoequipo1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      background-color: rgba(0, 0, 0, 0.7); }
+      .fondoequipo .sectionequipo .fotosequipo .textoequipo1 img {
+        width: 300px;
+        height: 300px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 4px solid white;
+        padding: 0px; }
+        .fondoequipo .sectionequipo .fotosequipo .textoequipo1 img:hover {
+          transform: scale(1.2); }
+      .fondoequipo .sectionequipo .fotosequipo .textoequipo1 p {
+        margin-top: 50px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: underline; }
+    .fondoequipo .sectionequipo .fotosequipo .textoequipo2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      background-color: rgba(178, 255, 178, 0.9); }
+      .fondoequipo .sectionequipo .fotosequipo .textoequipo2 img {
+        width: 300px;
+        height: 300px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: 4px solid white;
+        padding: 0px; }
+        .fondoequipo .sectionequipo .fotosequipo .textoequipo2 img:hover {
+          transform: scale(1.2); }
+      .fondoequipo .sectionequipo .fotosequipo .textoequipo2 p {
+        margin-top: 50px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: black;
+        text-decoration: underline; }
 
 .fondocontacto {
   background-image: url(../multimedia/fondocontacto.png);
@@ -116,29 +197,28 @@
     text-align: center;
     background-color: black; }
   .fondocontacto .titulocontacto2 {
-    color: black;
+    color: white;
+    background-color: black;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 20px; }
-  .fondocontacto .formulario {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    font-size: 25px; }
+  .fondocontacto .contenedorform .formulario {
     margin-top: 10px;
-    background-color: rgba(207, 207, 207, 0.7);
+    background-color: rgba(207, 207, 207, 0.5);
     color: black;
     font-style: bold;
-    padding: 20px; }
-    .fondocontacto .formulario .flexform {
-      display: flex;
-      flex-direction: column; }
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif; }
+    .fondocontacto .contenedorform .formulario .cajaform {
+      margin-bottom: 10px;
+      font-size: 20px; }
 
 .fondoubicacion {
   background-image: url(../multimedia/fondoubicacion.png);
@@ -318,21 +398,21 @@ h1 {
       text-align: center; }
       .fondodeheader .navegador .nav .contenido .menu1 {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         font-size: 15px;
         padding: 0px;
         margin: auto; }
-    .fondodeheader .navegador .nav .fmtraining {
-      grid-area: fmtraining;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      font-size: 20px;
-      text-decoration: none;
-      margin-left: auto;
-      margin-right: auto;
-      letter-spacing: 15px; }
+      .fondodeheader .navegador .nav .contenido .fmtraining {
+        grid-area: fmtraining;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        letter-spacing: 15px; }
   .titulocontacto {
     font-size: 25px;
     letter-spacing: 15px; }
@@ -390,33 +470,42 @@ h1 {
     letter-spacing: 15px; }
   /* EQUIPO */
   /* CONTACTO */
-  .titulocontacto2 {
-    background-color: rgba(255, 255, 255, 0.5); } }
+  .fondocontacto {
+    height: 130vh; }
+    .fondocontacto .titulocontacto2 {
+      background-color: rgba(255, 255, 255, 0.5);
+      color: black;
+      text-align: center; } }
 
 @media screen and (max-width: 425px) {
   .contenedor1 {
-    background-color: #94ff74; }
+    background-color: #d2ffce; }
     .contenedor1 .fondodeheader {
-      background-color: #8d8d8d; }
-      .contenedor1 .fondodeheader .navegador .nav {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-areas: "logotipo contenido"; }
-        .contenedor1 .fondodeheader .navegador .nav .logotipo {
-          grid-area: logotipo;
-          margin: 0px;
-          height: 80px;
-          width: 100px;
-          background-color: black; }
-        .contenedor1 .fondodeheader .navegador .nav .contenido {
-          grid-area: contenido; }
-          .contenedor1 .fondodeheader .navegador .nav .contenido .menu1 {
-            font-size: 10px;
-            margin: 0px;
-            font-weight: bold; }
-            .contenedor1 .fondodeheader .navegador .nav .contenido .menu1 li {
+      background-color: #d2ffce; }
+      .contenedor1 .fondodeheader .navegador {
+        padding: 0px; }
+        .contenedor1 .fondodeheader .navegador .nav {
+          display: grid;
+          grid-template-rows: 1fr, 1fr;
+          grid-template-areas: "logotipo" "contenido";
+          justify-content: center;
+          margin: 0px; }
+          .contenedor1 .fondodeheader .navegador .nav .logotipo {
+            grid-area: logotipo;
+            height: 60px;
+            width: 80px; }
+          .contenedor1 .fondodeheader .navegador .nav .contenido {
+            grid-area: contenido;
+            padding: 0px; }
+            .contenedor1 .fondodeheader .navegador .nav .contenido .menu1 {
+              font-size: 10.5px;
               margin: 0px;
-              padding: 2px; }
+              font-weight: bold; }
+              .contenedor1 .fondodeheader .navegador .nav .contenido .menu1 li {
+                margin: 0px;
+                padding: 9px; }
+            .contenedor1 .fondodeheader .navegador .nav .contenido .fmtraining {
+              display: none; }
     .contenedor1 .sectionindex {
       padding: 0px; }
       .contenedor1 .sectionindex .cajatitulocontacto .row .titulocontacto {
@@ -467,34 +556,39 @@ h1 {
           font-size: 10px; }
   /* MOBILE NOSOTROS */
   .contenedor2 {
-    background-color: #94ff74; }
+    background-color: #d2ffce; }
     .contenedor2 .fondodeheader {
-      background-color: #8d8d8d; }
-      .contenedor2 .fondodeheader .navegador .nav {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-areas: "logotipo contenido"; }
-        .contenedor2 .fondodeheader .navegador .nav .logotipo {
-          grid-area: logotipo;
-          margin: 0px;
-          height: 80px;
-          width: 100px;
-          background-color: black; }
-        .contenedor2 .fondodeheader .navegador .nav .contenido {
-          grid-area: contenido; }
-          .contenedor2 .fondodeheader .navegador .nav .contenido .menu1 {
-            font-size: 10px;
-            margin: 0px;
-            font-weight: bold; }
-            .contenedor2 .fondodeheader .navegador .nav .contenido .menu1 li {
+      background-color: #d2ffce; }
+      .contenedor2 .fondodeheader .navegador {
+        padding: 0px; }
+        .contenedor2 .fondodeheader .navegador .nav {
+          display: grid;
+          grid-template-rows: 1fr, 1fr;
+          grid-template-areas: "logotipo"  "contenido";
+          justify-content: center;
+          margin: 0px; }
+          .contenedor2 .fondodeheader .navegador .nav .logotipo {
+            grid-area: logotipo;
+            height: 60px;
+            width: 80px; }
+          .contenedor2 .fondodeheader .navegador .nav .contenido {
+            grid-area: contenido;
+            padding: 0px; }
+            .contenedor2 .fondodeheader .navegador .nav .contenido .menu1 {
+              font-size: 10.5px;
               margin: 0px;
-              padding: 2px; }
+              font-weight: bold; }
+              .contenedor2 .fondodeheader .navegador .nav .contenido .menu1 li {
+                margin: 0px;
+                padding: 9px; }
+            .contenedor2 .fondodeheader .navegador .nav .contenido .fmtraining {
+              display: none; }
   .divnosotros {
     padding: 0px; }
     .divnosotros .titulonosotros {
       font-size: 25px;
       word-spacing: 5px;
-      letter-spacing: 5px;
+      letter-spacing: 15px;
       padding: 0px; }
   .fotofondo2 {
     height: 114vh; }
@@ -517,13 +611,65 @@ h1 {
   .contenedor1 .fondoservicios .sectionindex {
     padding: 0px; }
   .contenedor1 .horarios img {
-    width: 350px;
-    height: 280px;
+    width: 400px;
+    height: 330px;
     text-align: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
-    margin-left: 28px; }
+    margin-right: 25px;
+    margin-left: 0px; }
+  /* MOBILE EQUIPO */
+  .titulocontacto {
+    font-size: 50px; }
+  .fondoequipo {
+    height: 120vh;
+    position: relative; }
+    .fondoequipo .sectionequipo .fotosequipo {
+      margin-top: 50px; }
+      .fondoequipo .sectionequipo .fotosequipo .textoequipo1 img {
+        width: 170px;
+        height: 170px;
+        margin-right: 20px;
+        margin-left: 20px; }
+        .fondoequipo .sectionequipo .fotosequipo .textoequipo1 img:hover {
+          transform: scale(1.4); }
+      .fondoequipo .sectionequipo .fotosequipo .textoequipo1 p {
+        font-size: 10px;
+        padding-right: 10px; }
+      .fondoequipo .sectionequipo .fotosequipo .textoequipo2 {
+        background-color: rgba(178, 255, 178, 0.9); }
+        .fondoequipo .sectionequipo .fotosequipo .textoequipo2 img {
+          width: 170px;
+          height: 170px;
+          margin-right: 20px;
+          margin-left: 20px; }
+          .fondoequipo .sectionequipo .fotosequipo .textoequipo2 img:hover {
+            transform: scale(1.4); }
+        .fondoequipo .sectionequipo .fotosequipo .textoequipo2 p {
+          font-size: 10px;
+          padding-right: 10px;
+          color: black; }
+  /* MOBILE ESPACIO */
+  .fondonosotros {
+    height: 120vh; }
+    .fondonosotros .sectionespacio .fotosnosotros1 .column1 img {
+      width: 120px;
+      height: 160px; }
+      .fondonosotros .sectionespacio .fotosnosotros1 .column1 img:hover {
+        transform: scale(1.5); }
+  /* MOBILE CONTACTO */
+  .fondocontacto .titulocontacto2 {
+    font-size: 15px; }
+  .fondocontacto .contenedorform .formulario {
+    margin-top: 5px;
+    background-color: rgba(207, 207, 207, 0.7);
+    color: black;
+    font-style: bold;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif; }
+    .fondocontacto .contenedorform .formulario .cajaform {
+      margin-bottom: 5px;
+      font-size: 15px; }
   /* MOBILE UBICACION */ }

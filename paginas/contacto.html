@@ -55,53 +55,49 @@
         </section>
 
 
-        <h2 class="titulocontacto2">Para dejarnos un mensaje completa el siguiente formulario:</h2>
+        <h2 class="titulocontacto2">Para dejarnos un mensaje completa el siguiente formulario</h2>
         
-        <form class="formulario">
-            <div class="flexform">
-                <section>
-                    <label for="nombreApellido">Nombre y Apellido:</label>
-                    <input type="text" name="nombreApellido"> 
+        <div class="contenedorform">
+                <form class="formulario">
+                    <div class="cajaform col-6">
 
-                    <label for="correo">Correo:</label>
-                    <input type="email" name="correo">
+                        <label for="nombreApellido" class="form-label">Nombre y Apellido:</label>
+                        <input type="text" class="form-control" id="nombreApellido" placeholder="Nombre">
 
-                    <label for="pass">Contraseña:</label>
-                    <input type="password" name="pass">
-                </section>
+                        <label for="emailInput" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="Escribe tu email">
+                        
+                    </div>
 
-                <section>
-                    <label for="mensaje">Deja tu mensaje:</label>
-                    <textarea name="mensaje" id="" cols="30" rows="5"></textarea>
-                </section>
+                    <div class="cajaform col-6">
 
-                <section>
-                    <label for="sexo">Indica tu sexo:</label>
-                    <input type="radio" value="F" name="sexo"> F
-                    <input type="radio" value="M" name="sexo"> M
-                    <input type="radio" value="Noespecifica" name="sexo"> No especifica
-                </section>
+                        <label for="mensaje" class="form-label">Deja tu mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" cols="40" rows="1" placeholder="Mensaje"></textarea>
 
-                <section>
-                    <label for="terminos">Para continuar:</label>
-                    <input type="checkbox" value="1" name="terminos" required> Acepto terminos y condiciones.
-                    <input type="checkbox" value="2" name="terminos"> Acepto las cookies.
+                    </div>
 
-                    <label for="Ciudad">Ciudad de residencia:</label>
-                    <select name="Ciudad">
-                    <option value="CAN">Canelones</option>
-                    <option value="MON">Montevideo</option>
-                    <option value="">Otros</option>
-                    </select>
-                </section>
-                
-                <section>
-                    <input type="submit" value="Enviar formulario">
-                    <input type="reset" value="Limpiar formulario">
-                    <input type="button">
-                </section>
-            </div>
-        </form>
+                    <div class="cajaform col-6">
+
+                        <label for="sexo" class="fomr-label">Indica tu sexo:</label>
+                        <input type="radio" value="F" id="sexo"> F
+                        <input type="radio" value="M" id="sexo"> M
+                        <input type="radio" value="Noespecifica" name="sexo"> No especifica
+                    </div>
+                        
+                        <div class="cajaform col-6">
+
+                        <label for="terminos">Continuar</label>
+                        <input type="checkbox" value="1" id="terminos" required> Acepto terminos y condiciones.
+                        <input type="checkbox" value="2" id="terminos"> Acepto las cookies.
+                    </div>
+
+                    <div class="cajaform col-6">
+                        <button type="submit" class="btn btn-primary">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+        </div>
     </main>
 
     <footer class="footernosotros row">

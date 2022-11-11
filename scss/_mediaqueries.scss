@@ -19,29 +19,28 @@
                     text-align: center;
                     .menu1{
                         display: flex;
-                        justify-content: space-around;
+                        justify-content: space-between;
                         font-size: 15px;
                         padding: 0px;
                         margin: auto;
                     
                     }
-                }
-                .fmtraining{
-                    grid-area: fmtraining;
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    align-items: center; 
-                    font-size: 20px;
-                    text-decoration: none;
-                    margin-left: auto;
-                    margin-right: auto;
-                    letter-spacing: 15px;
-                }
+                    .fmtraining{
+                        grid-area: fmtraining;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center; 
+                        font-size: 20px;
+                        text-decoration: none;
+                        margin-left: auto;
+                        margin-right: auto;
+                        letter-spacing: 15px;
+                    }   
             }
         }
     }
-
+}
 
     .titulocontacto{
         font-size: 25px;
@@ -130,42 +129,55 @@
 /* EQUIPO */
 
 /* CONTACTO */
-
-.titulocontacto2{
+.fondocontacto{
+    height: 130vh;
+    .titulocontacto2{
     background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    text-align: center;
+    }
 }
+
 
 }
 
 @media screen and (max-width: 425px){
     
     .contenedor1{
-        background-color: rgb(148, 255, 116);
+        background-color: rgb(210, 255, 206);
         .fondodeheader{
-            background-color: rgb(141, 141, 141);
+            background-color: rgb(210, 255, 206);
             .navegador{
+                padding: 0px;
                 .nav{
                     display: grid;
-                    grid-template-rows: 1fr;
+                    grid-template-rows: 1fr, 1fr;
                     grid-template-areas: 
-                    "logotipo contenido";
+                    "logotipo"
+                    "contenido";
+                    justify-content: center;
+                    margin: 0px;
+
                     .logotipo{
                         grid-area: logotipo;
-                        margin: 0px;
-                        height: 80px;
-                        width: 100px;
-                        background-color: rgb(0, 0, 0);
+                        height: 60px;
+                        width: 80px;
+                        
                     }
                     .contenido{
                         grid-area: contenido;
+                        padding: 0px;
                         .menu1{
-                            font-size: 10px;
+                            font-size: 10.5px;
                             margin: 0px;
                             font-weight: bold;
                             li{
                                 margin: 0px;
-                                padding: 2px;
+                                padding: 9px;
                             }
+                        }
+                        .fmtraining{
+                            display: none;
                         }
                     }
                 }
@@ -247,32 +259,42 @@
     /* MOBILE NOSOTROS */
     
     .contenedor2{
-        background-color: rgb(148, 255, 116);
+        background-color: rgb(210, 255, 206);
         .fondodeheader{
-            background-color: rgb(141, 141, 141);
+            background-color: rgb(210, 255, 206);
             .navegador{
+                padding: 0px;
                 .nav{
                     display: grid;
-                    grid-template-rows: 1fr;
+                    grid-template-rows: 1fr, 1fr;
                     grid-template-areas: 
-                    "logotipo contenido";
+                    "logotipo" 
+                    "contenido";
+                    justify-content: center;
+                    margin: 0px;
+
                     .logotipo{
                         grid-area: logotipo;
-                        margin: 0px;
-                        height: 80px;
-                        width: 100px;
-                        background-color: rgb(0, 0, 0);
+                        height: 60px;
+                        width: 80px;
+                        
+                        
                     }
                     .contenido{
                         grid-area: contenido;
+                        padding: 0px;
                         .menu1{
-                            font-size: 10px;
+                            font-size: 10.5px;
                             margin: 0px;
                             font-weight: bold;
                             li{
                                 margin: 0px;
-                                padding: 2px;
+                                padding: 9px;
+
                             }
+                        }
+                        .fmtraining{
+                            display: none;
                         }
                     }
                 }
@@ -285,7 +307,7 @@
         .titulonosotros{
             font-size: 25px;
             word-spacing: 5px;
-            letter-spacing: 5px;
+            letter-spacing: 15px;
             padding: 0px;
         }
     }
@@ -325,20 +347,108 @@
         }
             .horarios{
                 img{
-                    width: 350px;
-                    height: 280px;
+                    width: 400px;
+                    height: 330px;
                     text-align: center;
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
                     align-items: center;
-                    margin-right: 20px;
-                    margin-left: 28px;
+                    margin-right: 25px;
+                    margin-left: 0px;
                 
                 }
             }
     }
 
+
+    /* MOBILE EQUIPO */
+.titulocontacto{
+    font-size: 50px;
+
+}
+
+.fondoequipo{
+    height: 120vh;
+    position: relative;
+    .sectionequipo{
+        .fotosequipo{
+            margin-top: 50px;
+            .textoequipo1{
+                img{
+                    width: 170px;
+                    height: 170px;
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    &:hover{
+                        transform: scale(1.4);
+                    }
+                }
+                p{
+                    font-size: 10px;
+                    padding-right: 10px;
+                }
+            }
+            .textoequipo2{
+                background-color: rgba(178, 255, 178, 0.9);
+                img{
+                    width: 170px;
+                    height: 170px;
+                    margin-right: 20px;
+                    margin-left: 20px;
+                    &:hover{
+                        transform: scale(1.4);
+                    }
+                }
+                p{
+                    font-size: 10px;
+                    padding-right: 10px;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+/* MOBILE ESPACIO */
+
+.fondonosotros{
+    height: 120vh;
+    .sectionespacio{
+        .fotosnosotros1{
+            .column1{
+                img{
+                    width: 120px;
+                    height: 160px;
+                    &:hover{
+                        transform: scale(1.5);
+                    }
+                }
+            }
+        }
+    }
+}
+/* MOBILE CONTACTO */
+
+.fondocontacto{
+    .titulocontacto2{
+        font-size: 15px;
+    }
+    .contenedorform{
+        .formulario{
+            margin-top: 5px;
+            background-color: rgba(207, 207, 207, 0.7);
+            color:rgb(0, 0, 0);
+            font-style: bold;
+            padding: 10px;
+            font-family: 'Montserrat', sans-serif;
+            .cajaform{
+                margin-bottom: 5px;
+                font-size: 15px;
+            }
+        }
+    } 
+}
 
     /* MOBILE UBICACION */
 
